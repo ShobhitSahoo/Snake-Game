@@ -6,6 +6,7 @@ body {
     align-items: center;
     margin: 0;
     background-color: rgb(255, 255, 255);
+    overflow: hidden;
 }
 
 #game {
@@ -15,6 +16,7 @@ body {
     display: grid;
     grid-template-rows: repeat(21, 1fr);
     grid-template-columns: repeat(21, 1fr);
+    border: 5px dotted red;
 }
 
 .snake {
